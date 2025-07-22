@@ -8,6 +8,7 @@
   let options = {
     chart: {
       type: "column",
+      backgroundColor: "#f8f9fa"
     },
     title: {
       text: "Income Divide in El Dorado County",

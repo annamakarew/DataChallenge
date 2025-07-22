@@ -8,6 +8,7 @@
   let options = {
     chart: {
       type: "column",
+      backgroundColor: "#f8f9fa",
     },
     title: {
       text: "Officer-Initiated Stop Rate per 1,000 people",

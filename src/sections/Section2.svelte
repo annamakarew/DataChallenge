@@ -8,6 +8,7 @@
   let options = {
     chart: {
       type: "pie",
+      backgroundColor: "#f8f9fa",
     },
     title: {
       text: "Racial Breakdown of El Dorado County",
@@ -93,8 +94,10 @@
       </ArticleText>
 
       <ArticleText>
-        In El Dorado County, the Black homeownership rate is 65.5%. At first
-        glance, that might seem encouraging.
+        In El Dorado County, the Black homeownership rate is <a
+          href="https://public.tableau.com/shared/TM3T558BF?:display_count=n&:origin=viz_share_link&:embed=y"
+          >65.5%.</a
+        > At first glance, that might seem encouraging.
       </ArticleText>
 
       <ArticleText>
@@ -102,8 +105,8 @@
         Black residents. With such a small sample, the number may be skewed by a
         handful of longtime homeowners.
         <br /> <br />
-        It doesn't mean Black families are moving here. It means that very few ever
-        have.
+        It doesn't mean Black families aren't moving here. It means that very few
+        ever have.
       </ArticleText>
 
       <ArticleText>
@@ -117,6 +120,7 @@
   .chart {
     width: 90%;
     margin: 0px auto;
+    background: "#F0F4F8";
   }
 
   .caption {
