@@ -8,7 +8,9 @@
   let options = {
     chart: {
       type: "column",
-      backgroundColor: "#f8f9fa"
+      height: 600,
+      width: 700,
+      backgroundColor: "#f8f9fa",
     },
     title: {
       text: "Income Divide in El Dorado County",
@@ -102,10 +104,6 @@
 </div>
 
 <style>
-  .tableauPlaceholder {
-    width: 90%;
-    margin: 0px auto;
-  }
   .caption {
     text-align: center;
   }

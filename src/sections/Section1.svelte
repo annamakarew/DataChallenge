@@ -7,11 +7,7 @@
 <div>
   <Scroller layout="right">
     {#snippet sticky()}
-      <div
-        class="tableauPlaceholder"
-        id="viz1753147230053"
-        style="position: relative"
-      >
+      <div class="tableau" id="viz1753147230053" style="position: relative">
         <noscript
           ><a
             href="https:&#47;&#47;blackwealthdata.org&#47;explore&#47;homeownership"
@@ -96,8 +92,8 @@
 </div>
 
 <style>
-  .tableauPlaceholder {
-    width: 90%;
+  .tableau {
+    width: 100%;
     margin: 0px auto;
   }
 </style>

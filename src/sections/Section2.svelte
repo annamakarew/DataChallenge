@@ -9,6 +9,7 @@
     chart: {
       type: "pie",
       backgroundColor: "#f8f9fa",
+      height: 600,
     },
     title: {
       text: "Racial Breakdown of El Dorado County",
@@ -118,30 +119,12 @@
 
 <style>
   .chart {
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
     background: "#F0F4F8";
   }
 
   .caption {
     text-align: center;
-  }
-
-  .toggle-button {
-    margin: 20px;
-    padding: 20px;
-    color: #007052;
-    background-color: #0bd956;
-    border: solid 2px #007052;
-    border-radius: 16px;
-    font-size: large;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    box-shadow: 0 4px 0 #007052;
-  }
-
-  .toggle-button:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 0 #007052;
   }
 </style>

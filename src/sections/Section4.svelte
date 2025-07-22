@@ -9,6 +9,8 @@
     chart: {
       type: "column",
       backgroundColor: "#f8f9fa",
+      height: 600,
+      width: 700,
     },
     title: {
       text: "Officer-Initiated Stop Rate per 1,000 people",
