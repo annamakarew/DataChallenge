@@ -88,8 +88,8 @@
       </ArticleText>
 
       <ArticleText>
-        In the 1940s and 1950s, Black families like the Monroes and Burgesses
-        own property in Coloma until their land <a
+        In the 1940s and 1950s, Black families like the Monroe's and Burgess's
+        owned property in Coloma until their land <a
           href="https://www.newyorker.com/news/dispatch/the-black-families-seeking-reparations-in-californias-gold-country"
           >was seized by the state to build a State Park.</a
         >

@@ -58,7 +58,7 @@
 
       <ArticleText>
         In El Dorado County, law enforcement officers initiate stops of Black
-        resdients at a rate of <strong>333.3 per 1,000 people</strong>, which is
+        folks at a rate of <strong>333.3 per 1,000 people</strong>, which is
         more than <strong>5 times the county-wide average</strong>.
       </ArticleText>
 
