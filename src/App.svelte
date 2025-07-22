@@ -4,11 +4,7 @@
   import Section3 from "./sections/Section3.svelte";
   import Section4 from "./sections/Section4.svelte";
   import TitleSection from "./sections/TitleSection.svelte";
-  import InteresectionObserverBasicExample from "./sections/InteresectionObserverBasicExample.svelte";
-  import IntersectionObserverAlertExample from "./sections/IntersectionObserverAlertExample.svelte";
-  import DisappearingDuckExample from "./sections/DisappearingDuckExample.svelte";
-  import IntersectionObserverSectionCard from "./sections/IntersectionObserverSectionCard.svelte";
-  import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
+  import ConclusionSection from "./sections/ConclusionSection.svelte";
 </script>
 
 <main>
@@ -18,9 +14,5 @@
   <Section3 />
   <Section4 />
 
-  <IntersectionObserverSectionCard />
-  <InteresectionObserverBasicExample />
-  <IntersectionObserverAlertExample />
-  <DisappearingDuckExample />
-  <IntersectionObserverListExample />
+  <ConclusionSection />
 </main>
