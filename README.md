@@ -1,8 +1,8 @@
 # Scroll Through the Divide: Race and Homeownership in El Dorado County
 
-Scroll Through the Divide is a custom-built scrollytelling experience that explores racial wealth equity through the lens of Black homeownership in El Dorado County, California. Using interactive charts and narrative storytelling, the project examines how historical exclusion, income inequality, and systemic barriers shape who is able to own homes in one of California’s rural, majority-white regions.
+Scroll Through the Divide is an interactive scrollytelling project that dives into racial wealth equity by looking at Black homeownership in El Dorado County, California, which is where I’m from. Through data, charts, and storytelling, I explore how things like income gaps, historical land loss, and systemic barriers have shaped who gets to live and own property in this rural, mostly white part of the state.
 
-This project was built as part of the Scrollytelling with Data final assignment and is intended to highlight local inequities using real-world data and custom technical implementation.
+I built this project for my Scrollytelling with Data final assignment for the Kode with Klossy Data Storytelling Challenge by combining design, research, and code to tell a story that’s personal, local, and backed by real data.
 
 ## Tools and Technologies
 - Svelte: All components and scrolling logic were built using native Svelte features
