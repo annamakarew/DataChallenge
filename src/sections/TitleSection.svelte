@@ -4,7 +4,7 @@
   const title =
     "Scroll Through the Divide: Race and Homeownership in El Dorado County";
   const subtitle =
-    "An interactive look at racial disparities in homeownership across rural California";
+    "Uncovering the barriers to Black homeownership in a majority-white rural county";
 </script>
 
 <TitleCard {title} {subtitle} />
