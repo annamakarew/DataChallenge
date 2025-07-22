@@ -60,8 +60,13 @@
       </ArticleText>
 
       <ArticleText>
-        A median income of $46,432 makes homeownership out of reach for Black
-        households.
+        This makes the 65.5% homeownership rate for Black residents feel a bit
+        misleading.
+        <br /><br />
+        Income affects everything: loan approvals, down payments, monthly costs.
+        And with such a low median income, homeownership is not broadly accessible.
+        The 65.5% homeownership rate likely reflects a small group of longtime or
+        higher-income homeowners, not widespread access.
       </ArticleText>
 
       <ArticleText>
@@ -96,8 +101,9 @@
       </ArticleText>
 
       <ArticleText>
-        Next, let's look at barriers that current Black residents of El Dorado
-        County face today.
+        That loss isn't just about land. It's about stability, wealth, and the
+        right to belong. And while the tactics may have changed, Black residents
+        in El Dorado County still face barriers to this day.
       </ArticleText>
     {/snippet}
   </Scroller>

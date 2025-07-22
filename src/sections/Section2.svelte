@@ -111,7 +111,9 @@
       </ArticleText>
 
       <ArticleText>
-        Next, let's look at the income divide in El Dorado County.
+        So, if the homeownership rate doesn't tell the full story, what does?
+        Let's look at income, which is one of the biggest drivers of housing
+        access.
       </ArticleText>
     {/snippet}
   </Scroller>
