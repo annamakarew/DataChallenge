@@ -2,9 +2,9 @@
   import TitleCard from "../lib/TitleCard.svelte";
 
   const title =
-    "El Dorado County’s homeownership story reveals that equity isn't just about access — it's about belonging.";
+    "Overall, El Dorado County’s homeownership story reveals that equity isn't just about access - it's also about belonging.";
   const subtitle =
-    "To build a more inclusive future, we must first acknowledge the barriers that have shaped its past.";
+    "Building a more inclusive future starts with recognizing the systems that have excluded people for generations, and now it's up to us to change them.";
 </script>
 
 <TitleCard {title} {subtitle} />

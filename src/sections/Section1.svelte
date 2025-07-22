@@ -89,7 +89,7 @@
 
       <ArticleText>
         Now that we've seen the national trend, let's zoom in on what this looks
-        like in El Dorado County, and other rural parts of California.
+        like in El Dorado County, California.
       </ArticleText>
     {/snippet}
   </Scroller>
