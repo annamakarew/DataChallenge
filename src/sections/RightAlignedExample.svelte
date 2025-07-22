@@ -1,145 +1,103 @@
 <script>
-    import * as Highcharts from "highcharts";
-    import "highcharts/modules/exporting";
-    import { Chart } from "@highcharts/svelte";
-    import Scroller from "../lib/Scroller.svelte";
-    import ArticleText from "../lib/ArticleText.svelte";
-
-    let options = {
-        chart: {
-            type: "pie",
-        },
-        title: {
-            text: "An Example Pie Chart",
-        },
-        plotOptions: {
-            pie: {
-                allowPointSelect: true,
-                dataLabels: [
-                    {
-                        enabled: true,
-                        distance: 20,
-                    },
-                    {
-                        enabled: true,
-                        distance: -40,
-                        format: "{point.percentage:.1f}%",
-                        style: {
-                            fontSize: "1.2em",
-                            textOutline: "none",
-                        },
-                        filter: {
-                            operator: ">",
-                            property: "percentage",
-                            value: 10,
-                        },
-                    },
-                ],
-            },
-        },
-        series: [
-            {
-                name: "Group",
-                data: [
-                    {
-                        name: "Group 1",
-                        y: 151,
-                    },
-                    {
-                        name: "Group 2",
-                        sliced: true,
-                        selected: true,
-                        y: 180,
-                    },
-                    {
-                        name: "Group 3",
-                        y: 32,
-                    },
-                    {
-                        name: "Group 4",
-                        y: 103,
-                    },
-                    {
-                        name: "Group 5",
-                        y: 77,
-                    },
-                ],
-            },
-        ],
-    };
+  import "highcharts/modules/exporting";
+  import Scroller from "../lib/Scroller.svelte";
+  import ArticleText from "../lib/ArticleText.svelte";
 </script>
 
 <div>
-    <Scroller layout="right">
-        {#snippet sticky()}
-            <div class="chart">
-                <Chart {options} highcharts={Highcharts} />
-            </div>
-            <p>
-                Here's an example chart using
-                <a href="https://www.highcharts.com/">Highcharts</a>!
-            </p>
-            <p>
-                📈 <strong>Highcharts</strong> is a super-flexible library for
-                creating all kinds of charts. See demos of different chart types
-                <a href="https://www.highcharts.com/demo">here</a>.
-            </p>
-            <p>
-                Since we're using Highcharts through Svelte, the syntax is a
-                little different from what you might see in the demos. But all
-                of Highcharts' functionality is available through the Highcharts
-                for Svelte package.
-            </p>
-            <p>
-                The configuration is done through the
-                <code>options</code> json object passed to the chart, which you'll
-                see in the source code for this template.
-            </p>
-            <p>
-                Use the
-                <a href="https://api.highcharts.com/highcharts/"
-                    >API reference</a
-                >
-                to understand what each element in the <code>options</code> object
-                does.
-            </p>
-        {/snippet}
+  <Scroller layout="right">
+    {#snippet sticky()}
+      <div
+        class="tableauPlaceholder"
+        id="viz1753147230053"
+        style="position: relative"
+      >
+        <noscript
+          ><a
+            href="https:&#47;&#47;blackwealthdata.org&#47;explore&#47;homeownership"
+            ><img
+              alt="Time Series "
+              src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;JM&#47;JMK5FXMCN&#47;1_rss.png"
+              style="border: none"
+            /></a
+          ></noscript
+        ><object
+          class="tableauViz"
+          style="display:none;"
+          aria-label="Median Property Value by Race"
+          ><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+          <param name="embed_code_version" value="3" />
+          <param name="path" value="shared&#47;JMK5FXMCN" />
+          <param name="toolbar" value="yes" /><param
+            name="static_image"
+            value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;JM&#47;JMK5FXMCN&#47;1.png"
+          /> <param name="animate_transition" value="yes" /><param
+            name="display_static_image"
+            value="yes"
+          /><param name="display_spinner" value="yes" /><param
+            name="display_overlay"
+            value="yes"
+          /><param name="display_count" value="yes" /><param
+            name="language"
+            value="en-US"
+          /><param name="origin" value="viz_share_link" /><param
+            name="filter"
+            value="padding=0"
+          /><param name="filter" value="position=relative" /></object
+        >
+      </div>
+      <script type="text/javascript">
+        var divElement = document.getElementById("viz1753147230053");
+        var vizElement = divElement.getElementsByTagName("object")[0];
+        vizElement.style.width = "1244px";
+        vizElement.style.height = "727px";
+        var scriptElement = document.createElement("script");
+        scriptElement.src =
+          "https://public.tableau.com/javascripts/api/viz_v1.js";
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    {/snippet}
 
-        {#snippet scrolly()}
-            <ArticleText>
-                <strong>Welcome to the KWK Data Scrollytelling Template!</strong
-                >
-            </ArticleText>
+    {#snippet scrolly()}
+      <ArticleText>
+        <strong
+          >Homeownership is one of the most powerful tools for building
+          generational welath in the United States, but not all communities have
+          equal access.</strong
+        >
+      </ArticleText>
 
-            <ArticleText>
-                This is a <strong>basic example</strong> of how you might create
-                a scrollytelling piece using Svelte and Highcharts.
-            </ArticleText>
+      <ArticleText>
+        Let's take a look at property values, which is a key driver of long-term
+        wealth through home equity.
+      </ArticleText>
 
-            <ArticleText>
-                You can use this template as a <strong>starting point</strong>
-                for your project.
-                <br /><br />
-                Or, if you want to build something from scratch, you can use it as
-                a <strong>reference</strong> for specific functionality.
-            </ArticleText>
+      <ArticleText>
+        Homes purchased by Black borrowers are valued lower than those purchased
+        by other races.
+      </ArticleText>
 
-            <ArticleText>
-                This is <strong>just one way</strong> that scrollytelling can
-                look.
-                <br /><br />
-                <strong>
-                    If you use this template, be sure to modify it and make it
-                    your own!
-                </strong>
-            </ArticleText>
-        {/snippet}
-    </Scroller>
+      <ArticleText>
+        Lower property values mean less home equity over time, smaller returns
+        on investment, and less intergenerational wealth.
+      </ArticleText>
+
+      <ArticleText>
+        Black homeowners often start with less and earn less from their homes,
+        which makes it harder to move, reinvest, or build finanical security.
+      </ArticleText>
+
+      <ArticleText>
+        Now that we've seen the national trend, let's zoom in on what this looks
+        like in El Dorado County, and other rural parts of California.
+      </ArticleText>
+    {/snippet}
+  </Scroller>
 </div>
 
 <style>
-    .chart {
-        width: 90%;
-        margin: 0px auto;
-    }
+  .tableauPlaceholder {
+    width: 90%;
+    margin: 0px auto;
+  }
 </style>
